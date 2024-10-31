@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona internetowa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Strona internetowa</h1>
+    </header>
+    <section id="about">
+        <h2>O mnie</h2>
+        <p><input type="button" value="Przejdź dalej" onclick="document.location='Untitled-2.html'"></p>
+    <section id="projects">
+        <h2>Projekty</h2>
+        <div class="project">
+            <h3>Ta strona internetowa:</h3>
+            <p>Stworzenie strony internetowej oraz działania kalkulatora wielomianów</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Wielomiany</h2>
+        <form name="dane">
+            <b><i>x=</i></b>
+            <input type="text" name="x" value="0"><p>
+            <b><i>stopień wielomianu:</i></b>
+            <input type="text" name="stopx" value="0"><p>
+            <b><i>wartość wielomianu w punkcie x:</i></b>
+            <input type="text" name="wartx" size="50" value="Tu będzie odpowiedź po wybraniu oblicz"><p>
+            <input type="button" value="oblicz" onclick="obliczenia()">
+        </form>
+    </section>
+    <footer>
+        <p>© Kacper Adamczyk 4D</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
